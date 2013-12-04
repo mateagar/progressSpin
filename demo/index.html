@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Drawing Tests</title>
+        
+        <link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+        
+        <script src="scripts/jquery-1.10.2.js"></script>
+        <script src="scripts/raphael.js"></script>
+        <script src="../progressSpin.js"></script>
+        
+        <script>
+            $(document).ready(function () {
+                var $spinnerDiv = $("#spinner");
+                var $spinner = $spinnerDiv.progressSpin();
+                $spinner.start();
+                
+                setInterval(function () {
+                    if ($spinner.getAnimating()) {
+                        $spinner.stop();
+                    }
+                    else {
+                        $spinner.start();
+                    }
+                }, 10000)
+            });
+        </script>
+    </head>
+    <body>
+        <div id="spinner"></div>
+    </body>
+</html>

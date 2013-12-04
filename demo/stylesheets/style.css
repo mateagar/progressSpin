@@ -1,0 +1,18 @@
+body {
+    background-color: #cccccc;
+}
+
+p {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+}
+
+button {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.0em;    
+}
+
+div#spinner {
+    height: 50px;
+    width: 150px;
+}
