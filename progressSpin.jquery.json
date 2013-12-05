@@ -1,6 +1,6 @@
 {
     "name": "progressSpin",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Progress Spinner",
     "author": {
         "name": "Matthew Eagar",
@@ -19,9 +19,9 @@
     "description": "Dynamically renders a progress spinner.",
     "keywords": [
         "progress",
-        "bar",
-        "step",
-        "navigation"
+        "spinner",
+        "wait",
+        "indeterminate"
     ],
     "homepage": "https://github.com/mateagar/progressSpin",
     "docs": "https://github.com/mateagar/progressSpin",
