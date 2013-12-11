@@ -26,8 +26,7 @@ How do I use it?
 
 For example:  
 ```javascript  
-var $spinnerDiv = $("#spinner");
-var $spinner = $spinnerDiv.progressSpin();
+var $spinner = $("#spinner").progressSpin();
 $spinner.start();
 
 ```
@@ -39,7 +38,7 @@ Options and Defaults
 --------------------
 Unfortunately, the graphics which Raphaël generates ([VML][] in IE8, and [SVG][] elsewhere) are not completely style-able using CSS, so you need to pass styling cues to `progressSpin` as configuration parameters.  
 
-The `progressSpin()` method optionally takes an options object that you can use to specify styling and some basic dimensions. The overall size of the control is dictated by the dimensions of the `<div>` tag which contains it. You can modify the default options by setting the values on `progressStep.defaults`. 
+The `progressSpin()` method optionally takes an options object that you can use to specify styling and some basic dimensions. The overall size of the control is dictated by the dimensions of the `<div>` tag which contains it. You can modify the default options by setting the values on `progressSpin.defaults`. 
 
 * **activeColor**: The color used to highlight the current step in the spinner.
 * **fillColor**: The color used to draw inactive steps.
